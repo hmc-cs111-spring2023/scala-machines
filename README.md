@@ -52,7 +52,7 @@ The file [regex/README.md](regex/README.md) contains instructions for this part.
 _There is nothing to do for this part, but just some extra things to check out, now that
 you have implemented both DFAs and REs._
 
-Once you have completed both parts, you can try the command `conversion/main` in sbt. This
+Once you have completed both parts, you can try the command `conversion/run` in sbt. This
 command runs the `main` program in
 [Conversion.scala](conversion/src/main/scala/Conversion.scala). This function converts
 an example regular expression to its equivalent DFA, generates a picture of it, and checks
