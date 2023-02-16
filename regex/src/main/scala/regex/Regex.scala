@@ -17,11 +17,11 @@ package regex
 /** Simplifies a regular language */
 def simplify(lang: RegularLanguage): RegularLanguage = ???
 
-/** Computes the derivative of a language, with respect to a character */
-def derivative(l: RegularLanguage)(c: Char): RegularLanguage = ???
-
 /** A language is nullable if it contains ε */
 def nullable(lang: RegularLanguage): Boolean = ???
+
+/** Computes the derivative of a language, with respect to a character */
+def derivative(l: RegularLanguage)(c: Char): RegularLanguage = ???
 
 /** *****************************************************************************
   * String-matching with regular expressions
