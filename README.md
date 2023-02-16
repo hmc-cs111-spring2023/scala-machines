@@ -15,8 +15,6 @@ These are the parts of the assignment:
 3. Commit your code, push it to Github, and submit it on Gradescope.
 4. Provide feedback on another assignment.
 
-## Overview
-
 **Be sure to skim the whole document, before you start coding!**
 
 ## Resources
@@ -33,13 +31,13 @@ Please also ask questions in class, on Discord, and in office hours!
 
 ## Part 0: Set up your development environment
 
-There are (at least) three ways to work on the assignment:
+As with the previous assignment, there are (at least) three ways to work on the assignment:
 
 1. In Codespaces
 2. On your own machine, using Docker
 3. On your own machine, using your own installation of Scala
 
-The previous assignment contains instructions each of these options.
+The previous assignment contains instructions for each of these options.
 
 ## Part 1: Deterministic Finite Automata (DFAs)
 
@@ -55,7 +53,7 @@ _There is nothing to do for this part, but just some extra things to check out, 
 you have implemented both DFAs and REs._
 
 Once you have completed both parts, you can try the command `conversion/main` in sbt. This
-command, runs the `main` program in
+command runs the `main` program in
 [Conversion.scala](conversion/src/main/scala/Conversion.scala). This function converts
 an example regular expression to its equivalent DFA, generates a picture of it, and checks
 that the original RE and the DFA agree on a sample input.
