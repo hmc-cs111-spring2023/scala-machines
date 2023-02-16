@@ -1,6 +1,6 @@
 # Part 2: Regular Expressions (REs)
 
-[Regular expressions](https://en.wikipedia.org/wiki/Regular_expression).[^2] are an
+[Regular expressions](https://en.wikipedia.org/wiki/Regular_expression)[^2] are an
 alternative way to describe DFAs. A regular expression is a pattern that can be used to
 match strings. For example, the pattern `a*` matches 0 or more `a`s, and the pattern `a|b`
 matches either an `a` or a `b`. A full definition of regular expressions appears below,
@@ -8,11 +8,11 @@ along with an algorithm for matching a regular expression against a string. Foll
 is a description of the case classes and pattern-matching functions that you will
 implement.
 
-[^2] You do not need to know all of the information in the Wikipedia article. It is just
-there for your reference!
-
 In this part of the assignment, we will implement regular expressions and use them to
 match strings.
+
+[^2] You do not need to know all of the information in the Wikipedia article. It is just
+there for your reference!
 
 ## Part 2a: Regular Expressions (REs)
 
@@ -73,14 +73,14 @@ s(\emptyset \cup L) &=& s(L) \\
 s(L \cup \emptyset) &=& s(L) \\
 s(L_1 \cup L_2) &=& s(L_1) \cup s(L_2) \\
 s(\epsilon^*) &=& \epsilon \\
-s(\emptyset^*) &=& \emptyset \\
-s(L^*) &=& (s(L))^* \\
+s({\emptyset}^\*) &=& \emptyset \\
+s(L^\*) &=& (s(L))^\* \\
 \end{align}
 $$
 
 ### Implementing simplification
 
-Working in the same file, fill in the a function named `simplify`, that
+Working in the same file, fill in the a function named `simplify`, which
 takes a `RegularLanguage` as input and results in a `RegularLanguage` that is equivalent
 to (but possibly simpler than) the input. Use pattern-matching for your implementation,
 and be sure to include a fallthrough case that just returns the input.
@@ -103,7 +103,7 @@ The **_derivative_** of a language $L$ with respect to a character $c \in \Sigma
 language of all suffixes in $L$ of words that start with character $c$. Formally:
 $\partial_c(L) = \{w\ |\ c\cdot w \in L\}$. For example, given the language
 $L = \{\textrm{apple}\}$ that contains a single word:
-$\partial_a(L) = \{\textrm{pple}\}$, and $\partial_q(L) = \empty$.
+$\partial_a(L) = \{\textrm{pple}\}$, and $\partial_q(L) = \emptyset$.
 
 Regular languages are closed under derivatives, which means that the derivative of a
 regular language is also a regular language. The derivatives of regular languages are
