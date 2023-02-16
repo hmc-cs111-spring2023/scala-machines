@@ -4,7 +4,7 @@ In this part of the assignment, we will implement classes that represent a
 [Deterministic Finite Automaton
 (DFA)](https://en.wikipedia.org/wiki/Deterministic_finite_automaton).[^1] Your classes should
 have a specific interface and behavior, as described below. Other than these constraints,
-you are free to implement the classes however you like.
+you are free to implement the classes however you like!
 
 [^1] You do not need to know all of the information in the Wikipedia article. It is
 just there for your reference!
@@ -51,6 +51,7 @@ Below are properties that your implementation must have:
   - `startState`: a `val` of type `State` that indicates the start state of the DFA
   - `acceptingStates`: a `val` of type `Set[State]` that contains all of the accepting
     states in the DFA
+  - _Note, we won't store the alphabet in our implementations of DFAs._
   - a method named `accepts` that takes a `String` as input and results in `true` if the
     DFA accepts the input and `false` otherwise.
 
@@ -67,7 +68,8 @@ There are a few things you can do to test your implementation:
   `dfa/run`. If successful, this will generate a file called `output.dot.png`[^2] in
   the root directory of the project. You can open this file to see a picture of the DFA.
   It should look like this:
-  ![Diagram of DFA](https://hmc-cs111-spring2023.github.io/hw5.dot.png)
+  
+  ![Diagram of DFA](https://hmc-cs111-spring2023.github.io/assets/img/hw5.dot.png)
 
   _Image description: A picture of a DFA with 2 states. The start state is labeled "Even",
   and it is accepting. The other state is labeled "Odd", and it is not accepting. From
@@ -77,4 +79,4 @@ There are a few things you can do to test your implementation:
 [^2] The `.dot.png` extension indicates that the file is a picture generated from a
 [Graphviz](https://en.wikipedia.org/wiki/Graphviz) file. You do not need to know
 anything about Graphviz to complete this assignment. But it is a useful DSL for describing
-diagrams.
+diagrams!
