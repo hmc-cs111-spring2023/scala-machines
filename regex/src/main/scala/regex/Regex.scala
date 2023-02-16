@@ -3,9 +3,10 @@ package regex
 /** *****************************************************************************
   * Regular Languages
   *
-  * data structure definitions for regular languages (place your implementation
-  * below)
+  * data structure definitions for regular languages
   */
+
+// Add your definitions here
 
 /** *****************************************************************************
   * Derivatives
