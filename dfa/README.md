@@ -48,6 +48,7 @@ Below are properties that your implementation must have:
   - `to`: a `State` that indicates the end state of the transition
 - Your implementation should define a **class** named `DFA`, with the following properties:
   - `states`: a `val` of type `Set[State]` that contains all of the states in the DFA
+  - `transitions`: a `val` of type `Set[Transition]` that contains all of the transitions in the DFA.
   - `startState`: a `val` of type `State` that indicates the start state of the DFA
   - `acceptingStates`: a `val` of type `Set[State]` that contains all of the accepting
     states in the DFA
