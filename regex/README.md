@@ -54,8 +54,8 @@ In the file [`regex/src/main/scala/regex/Regex.scala`](src/main/scala/regex/Rege
 implement:
 
 - A trait named `RegularLanguage`
-- A case class for each of the six forms of regular expressions described above. The names
-  of the case classes should be `Empty`, `Epsilon`, `Character`, `Union`, `Concat`, and
+- A case class or case object (as appropriate) for each of the six forms of regular expressions 
+  described above. Their names should be `Empty`, `Epsilon`, `Character`, `Union`, `Concat`, and
   `Star`.
 
 ### Testing the implementation
