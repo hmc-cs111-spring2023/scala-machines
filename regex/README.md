@@ -18,7 +18,7 @@ there for your reference!
 Here are some [slides](https://drive.google.com/file/d/18p8dNEp93PFDNS7zGpmpMG3zmK3zzafX/view?usp=share_link) 
 that describe the background information contained in this README. You can follow along 
 with the slides as you read and work on the assignment. (_Note: The slides use slightly 
-different letters in the formal notatoin, but I hope it is straightforward to translate 
+different letters in the formal notation, but I hope it is straightforward to translate 
 between the slides and the background material below._)
 
 ## Part 2a: Regular Expressions (REs)
